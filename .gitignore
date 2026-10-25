@@ -1,0 +1,25 @@
+# Python y entornos locales
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+# Secretos y configuración privada
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+# Archivos de usuarios y resultados locales
+uploads/
+exports/
+private/
+*.log
+# Editor y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
