@@ -26,7 +26,7 @@ with st.sidebar:
     source = st.radio('Origen del JSON', ['Subir archivo', 'Pegar JSON', 'Probar ejemplo'])
     raw, filename = None, 'datos'
     if source == 'Subir archivo':
-        uploaded = st.file_uploader('Selecciona tu archivo', type=['json'], max_upload_size=20)
+        uploaded = st.file_uploader('Selecciona tu archivo', type=['json'], max_upload_size=50)
         if uploaded is not None:
             raw, filename = uploaded.getvalue(), Path(uploaded.name).stem
     elif source == 'Pegar JSON':

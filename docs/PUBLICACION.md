@@ -20,7 +20,7 @@ Documentación oficial:
 
 ## Qué protege esta versión
 
-- Límite de 20 MB también en el procesamiento de texto pegado.
+- Límite de 50 MB también en el procesamiento de texto pegado.
 - Rechazo de claves duplicadas, números no finitos y documentos con más de 50 niveles o 200.000 valores.
 - Tablas limitadas a 50.000 filas, 500 columnas y 1.000.000 de celdas antes de crear el DataFrame.
 - El JSON se interpreta como datos: no se ejecuta con `eval`, ni se inserta en HTML sin escapar.

@@ -6,7 +6,7 @@ secondaryBackgroundColor = "#eeeaf7"
 textColor = "#24113d"
 font = "sans serif"
 [server]
-maxUploadSize = 20
+maxUploadSize = 50
 enableCORS = true
 enableXsrfProtection = true
 [browser]

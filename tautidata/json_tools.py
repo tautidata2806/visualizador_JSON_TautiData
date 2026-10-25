@@ -28,8 +28,8 @@ def validate_structure(data):
 
 
 def parse_json(raw):
-    if len(raw) > 20 * 1024 * 1024:
-        raise ValueError('El archivo supera los 20 MB.')
+    if len(raw) > 50 * 1024 * 1024:
+        raise ValueError('El archivo supera los 50 MB.')
     try:
         text = raw.decode('utf-8-sig')
     except UnicodeDecodeError as exc:
